@@ -52,6 +52,8 @@ The Task Tracker CLI allows you to:
 
 ---
 ## 📌 Available Commands
+
+```bash
 node index.js add <task title>             # Add a new task
 node index.js update <num> <new title>     # Update a task title
 node index.js delete <num>                 # Delete a task
@@ -61,12 +63,11 @@ node index.js list                         # List all tasks
 node index.js list-done                    # List tasks that are done
 node index.js list-todo                    # List tasks that are not done (todo)
 node index.js list-in-progress             # List tasks in progress
-
+```
 
 ## 📌 Example Commands
 
-> The commands below are examples. Actual syntax may vary depending on implementation.
-
+```bash
 node index.js add "Build task tracker CLI"
 node index.js add "Write README file"
 
@@ -80,8 +81,11 @@ node index.js list
 node index.js list-done
 node index.js list-todo
 node index.js list-in-progress
+```
 
 # List tasks by status
+```bash
 task list done
+```
 task list not-done
 task list in-progress
