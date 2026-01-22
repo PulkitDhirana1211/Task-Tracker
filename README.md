@@ -78,14 +78,11 @@ node index.js update 2 "Write detailed README documentation"
 node index.js delete 3
 
 node index.js list
-node index.js list-done
-node index.js list-todo
-node index.js list-in-progress
 ```
 
 # List tasks by status
 ```bash
-task list done
+node index.js list done
+node index.js list not-done
+node index.js list in-progress
 ```
-task list not-done
-task list in-progress
