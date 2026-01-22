@@ -82,7 +82,7 @@ node index.js list
 
 # List tasks by status
 ```bash
-node index.js list done
-node index.js list not-done
-node index.js list in-progress
+node index.js list-done
+node index.js list-todo
+node index.js list-in-progress
 ```
